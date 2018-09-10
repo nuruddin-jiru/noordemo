@@ -1,0 +1,31 @@
+Github Setup
+
+
+Download and install Git for Linux :
+sudo apt-get install git
+
+If error :
+sudo rm /var/lib/apt/lists/lock
+sudo rm /var/cache/apt/archives/lock
+sudo rm /var/lib/dpkg/lock
+
+Proxy Setting
+git config --global http.proxy 172.16.2.30:8080
+
+Configuring local account
+
+Set Username:
+git config --global user.name "user_name"
+
+Set Email:
+git config --global user.email "email_id"
+
+
+Cloning a repository
+git clone https://github.com/username/repository_name
+(copy your own repository link)
+
+Staging/Adding Files
+git add filename
+Commit:
+
